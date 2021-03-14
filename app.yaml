@@ -1,0 +1,11 @@
+runtime: python38
+instance_class: F4_1G
+default_expiration: "4d 5h"
+
+handlers:
+  - url: /.*
+    script: auto
+    secure: always
+
+  beta_settings:
+    cloud_sql_instances: ai4sg-template-1:us-central1:ai4sg-example-db=tcp:PORT
