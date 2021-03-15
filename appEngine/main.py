@@ -35,7 +35,7 @@ def index():
     plot = alt.Chart(df_plot).encode(x='year:Q',y='co2:Q', color=alt.Color('country:N')).mark_line().encode()
     json_str = plot.to_json()
     
-    # Display it using a simple html template. Flash uses jinja2 for generating html files used for rendering. 
+    # Display it using a simple html template. Flask uses jinja2 for generating html files used for rendering. 
     return render_template('ai4sg_template.html', dropdown=country_dropdown, json_str=json_str, selected_country=selected_country)
 
 
