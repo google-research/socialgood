@@ -7,5 +7,5 @@ handlers:
     script: auto
     secure: always
 
-  beta_settings:
-    cloud_sql_instances: ai4sg-template-1:us-central1:ai4sg-example-db=tcp:PORT
+  # beta_settings:
+  #   cloud_sql_instances: ai4sg-template-1:us-central1:ai4sg-example-db=tcp:PORT
