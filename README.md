@@ -1,9 +1,7 @@
 # AI for Social Good Starter Template
 
-This repository contains a template that can be used to seed a repository for a
-new AI4SG project. 
-
-This template uses the Apache license, as it is Google's default.
+This repository contains templates that can be used to seed new AI4SG projects.
 
 Each folder in the repository contains a template and corresponding README
 
+All code in this repo uses the Apache license, as it is Google's default.
