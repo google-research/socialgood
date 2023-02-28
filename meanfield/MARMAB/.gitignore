@@ -1,0 +1,10 @@
+data/*
+img/*
+logs/Tmatrix_logs/*
+logs/adherence_log/*
+logs/cumulative_state_log/*
+logs/runtime/*
+logs/results/*
+logs/cum_adherence/*
+logs/action_logs/*
+**/__pycache__/*

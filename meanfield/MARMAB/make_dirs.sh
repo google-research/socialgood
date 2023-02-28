@@ -1,0 +1,10 @@
+mkdir data/
+mkdir img/
+mkdir logs/
+mkdir logs/Tmatrix_logs/
+mkdir logs/adherence_log/
+mkdir logs/cumulative_state_log/
+mkdir logs/runtime/
+mkdir logs/results/
+mkdir logs/cum_adherence/
+mkdir logs/action_logs/
