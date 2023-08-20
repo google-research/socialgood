@@ -1,0 +1,10 @@
+parameter
+n_arms_list,25
+budget_frac_list,0.1,0.2
+policy_list,No Action Policy,Random Policy,Round Robin High A1c Policy,Whittle Index Policy,Equitable LP Policy: MMR,Equitable LP Policy: MNW,Equitable LP Policy: MNW Equal Groups
+n_trials,2
+horizon_list,5
+environment_name,Diabetes App Environment
+base_seed,0
+alpha,0,1
+stream_map,1
